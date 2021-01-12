@@ -16,7 +16,7 @@ def create_t5_encoder_decoder(pretrained_version='t5-base'):
 
     # T5 is an encoder / decoder model with a language modeling head on top.
     # We need to separate those out for efficient language generation
-    model = T5ForConditionalGeneration.from_pretrained(pretrained_version)
+    model =  BartForConditionalGeneration.from_pretrained(pretrained_version)
 
     return turn_model_into_encoder_decoder(model)
 
