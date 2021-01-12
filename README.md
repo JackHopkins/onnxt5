@@ -17,7 +17,7 @@ pip install onnxt5
 
 For the dev version you can run the following.
 ```bash
-git clone https://github.com/abelriboulot/onnxt5
+git clone https://github.com/JackHopkins/onnxt5
 cd onnxt5
 pip install -e .
 ```
